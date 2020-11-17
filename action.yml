@@ -1,9 +1,9 @@
-name: awscli
+name: 1inch-exchange-aws-cli
 description: AWS CLI for GitHub Actions
-author: Yunseok
+author: 1inch.exchange
 runs:
   using: docker
   image: Dockerfile
 branding:
   icon: cloud
-  color: yellow
+  color: red
