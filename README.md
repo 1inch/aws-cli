@@ -10,7 +10,7 @@ Insipired by [b4nst/docker-awscli](https://github.com/b4nst/docker-awscli)
 
 ```yaml
 - name: Echo version of aws-cli
-  uses: hannut91/aws-cli@1.18.43
+  uses: 1inch-exchange/aws-cli@1.18.43
   with:
     args: --version
 ```
@@ -19,7 +19,7 @@ Insipired by [b4nst/docker-awscli](https://github.com/b4nst/docker-awscli)
 
 ```yaml
 - name: Upload files
-  uses: hannut91/aws-cli@v1.18.43
+  uses: 1inch-exchange/aws-cli@v1.18.43
   with:
     args: s3 cp test.txt s3://bucket-name/
   env:
