@@ -22,8 +22,8 @@ jobs:
         if: env.AWS_CLI_VERSION != env.CURRENT_VERSION
         run: |
           sed -i.bak s/$CURRENT_VERSION/$AWS_CLI_VERSION/ Dockerfile
-          git config --local user.email "hannut91@gmail.com"
-          git config --local user.name "Yunseok"
+          git config --local user.email "ci@1inch.exchange"
+          git config --local user.name "CI"
           git add Dockerfile
           git commit -m "Version update to $AWS_CLI_VERSION"
           git tag -a -m "awscli $AWS_CLI_VERSION" $AWS_CLI_VERSION
