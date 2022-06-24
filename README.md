@@ -1,3 +1,10 @@
+# !!! Deprecated
+> There is no need to use this anymore because:
+> - [AWS CLI is already in runner environment](https://stackoverflow.com/questions/59166099/github-action-aws-cli)
+> - There is an [official image](https://hub.docker.com/r/amazon/aws-cli)
+
+-----
+
 # AWS CLI Actions
 
 awscli using Docker image.
